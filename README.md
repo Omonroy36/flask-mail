@@ -14,16 +14,16 @@ $ pipenv install
 Comandos para la base de datos
 ### Ejecutar solo la primera vez si no tienen la carpeta migrations
 ```
-$ python app.py db init 
+$ flask db init 
 ```
 ### Ejecutar para crear las migraciones 
 ```
-$ python app.py db migrate
+$ flask db migrate
 ```
 
 ### Ejecutar para enviar las migraciones hacia la base de datos
 ```
-$ python app.py db upgrade
+$ flask db upgrade
 ```
 
 Iniciar el servidor
