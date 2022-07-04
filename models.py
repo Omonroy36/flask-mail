@@ -46,7 +46,8 @@ class Post(db.Model):
             "body": self.body,
             "publication_date":self.publication_date,
             "category_id":self.category_id,
-            "user_id": self.user_id
+            "user_id": self.user_id,
+            "user":self.user.name
         }
         
 
